@@ -5,7 +5,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Checkout Form</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h2>Checkout</h2>
+    </header>
+    <div class="container">
+      <div class="form-info">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <form action="#">
+            <div class="email">
+              <label for="email">Email</label> <br />
+              <input
+                type="email"
+                name="email_entered"
+                id="email"
+                placeholder="Enter your email"
+              />
+              <img src="./IMG/mail_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+            </div>
+            <div class="phone">
+              <label for="phone">Phone</label>
+              <br />
+              <input type="tel" name="entered-tel" id="tel" />
+              <img src="./IMG/call_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+            </div>
+          </form>
+        </div>
+        <div class="shipping">
+          <h3>Shipping Address</h3>
+          <form action="#">
+            <div class="fullname">
+              <label for="name">Full name</label>
+              <br />
+              <input
+                type="text"
+                name="name_entered"
+                id="name"
+                placeholder="Enter your Full name"
+              />
+              <img src="./IMG/person_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+            </div>
+            <div class="address">
+              <label for="address">Adress</label>
+              <br />
+              <input
+                type="text"
+                name="entered-address"
+                id="address"
+                placeholder="Enter your address"
+              />
+              <img src="./IMG/home_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+            </div>
+            <div class="city">
+              <label for="city">City</label>
+              <br />
+              <input
+                type="text"
+                name="entered-city"
+                id="city"
+                placeholder="Enter your city"
+              />
+              <img
+                src="./IMG/location_city_FILL0_wght400_GRAD0_opsz48.png"
+                alt=""
+              />
+            </div>
+            <div class="country-code">
+              <div class="country">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                  <option value="Turkey">Turkey</option>
+                  <option value="USA">USA</option>
+                  <option value="Spain">Spain</option>
+                </select>
+                <img src="./IMG/public_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+              </div>
+              <div class="postal">
+                <label for="postal-code">Postal Code</label>
+                <br />
+                <input
+                  type="text"
+                  name="postal-code"
+                  id="postal-code"
+                  placeholder="Enter your postal code"
+                />
+                <img
+                  src="./IMG/local_post_office_FILL0_wght400_GRAD0_opsz48.png"
+                  alt=""
+                />
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="see-next" id="see-next" />
+                <label for="see-next">See this information next time</label>
+                <br />
+              </div>
+            </div>
+
+            <div class="submit">
+              <input type="submit" value="Continue" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="bag">
+          <div class="bag-img">
+            <img src="./IMG/photo1.png" alt="" />
+          </div>
+          <div class="bag-costs">
+            <h4>Vintage Backbag</h4>
+            <p>$54.99 <del><$94.99</del></p>
+            <form action="#">
+              <input type="number" name="" id="vintage-bag-count" min="0" />
+            </form>
+          </div>
+        </div>
+        <div class="shoes">
+          <img src="./IMG/photo2.png" alt="" />
+          <h4>Levi Shoes</h4>
+          <p>$74.99 <del>$124.99</del></p>
+          <form action="#">
+            <input type="number" name="" id="shoes-count" min="0" />
+          </form>
+        </div>
+        <div class="shipping-cost">
+          <hr />
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <div class="total-cost">
+          <hr />
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

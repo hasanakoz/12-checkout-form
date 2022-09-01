@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid red; */
+}
+header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 2rem;
+}
+.form-info {
+  width: 60%;
+  margin-left: 3rem;
+}
+
+.products {
+  width: 40%;
+  background-color: rgba(251, 244, 240, 0.977);
+  border: 0.5px solid rgba(251, 244, 240, 0.977);
+  border-radius: 10px;
+}
+
+.bag {
+  display: flex;
+  margin: 1rem;
+}
+
+.bag-img img {
+  width: 100%;
+}
+
+.bag-costs {
+  margin-left: 1rem;
+}
