@@ -6,15 +6,110 @@
 }
 header {
   text-align: center;
+  margin-top: 1rem;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 2rem;
   margin: 2rem;
 }
+
 .form-info {
+  width: 50%;
+  margin-left: 1.5rem;
+  /* border: 2px solid red; */
+}
+
+.form-info div {
+  padding: 0.5rem;
+}
+
+.country-code {
+  display: flex;
+  gap: 1rem;
+}
+.country {
+  width: 30%;
+}
+.postal {
   width: 60%;
-  margin-left: 3rem;
+}
+.form-info div input {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: left;
+  margin: 0.5rem 0.5rem 0 0;
+  opacity: 0.6;
+  border-radius: 4px;
+  height: 2rem;
+  padding-left: 2rem;
+}
+.form-info label {
+  opacity: 0.6;
+}
+
+h3 {
+  padding-left: 0.5rem;
+}
+
+.email input {
+  background-image: url("./IMG/mail_FILL0_wght400_GRAD0_opsz48.png");
+}
+.phone input {
+  background-image: url("./IMG/call_FILL0_wght400_GRAD0_opsz48.png");
+}
+
+.fullname input {
+  background-image: url("./IMG/person_FILL0_wght400_GRAD0_opsz48.png");
+}
+
+.address input {
+  background-image: url("./IMG/home_FILL0_wght400_GRAD0_opsz48.png");
+}
+
+.city input {
+  background-image: url("./IMG/location_city_FILL0_wght400_GRAD0_opsz48.png");
+}
+.country select {
+  background-image: url("./IMG/public_FILL0_wght400_GRAD0_opsz48.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 2rem;
+  margin: 0.5rem 0.5rem 0 0;
+  opacity: 0.6;
+  border-radius: 4px;
+  height: 2rem;
+}
+
+.postal input {
+  background-image: url("./IMG/local_post_office_FILL0_wght400_GRAD0_opsz48.png");
+}
+
+.checkbox {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 0;
+  height: 2rem;
+}
+.checkbox label {
+  /* border: 3px solid blue; */
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.form-info .checkbox input {
+  width: 5%;
+  margin: 0;
+  padding: 0;
 }
 
 .products {

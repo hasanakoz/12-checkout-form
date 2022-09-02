@@ -25,13 +25,16 @@
                 id="email"
                 placeholder="Enter your email"
               />
-              <img src="./IMG/mail_FILL0_wght400_GRAD0_opsz48.png" alt="" />
             </div>
             <div class="phone">
               <label for="phone">Phone</label>
               <br />
-              <input type="tel" name="entered-tel" id="tel" />
-              <img src="./IMG/call_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+              <input
+                type="tel"
+                name="entered-tel"
+                id="tel"
+                placeholder="Enter your phone"
+              />
             </div>
           </form>
         </div>
@@ -47,7 +50,6 @@
                 id="name"
                 placeholder="Enter your Full name"
               />
-              <img src="./IMG/person_FILL0_wght400_GRAD0_opsz48.png" alt="" />
             </div>
             <div class="address">
               <label for="address">Adress</label>
@@ -58,7 +60,6 @@
                 id="address"
                 placeholder="Enter your address"
               />
-              <img src="./IMG/home_FILL0_wght400_GRAD0_opsz48.png" alt="" />
             </div>
             <div class="city">
               <label for="city">City</label>
@@ -69,20 +70,16 @@
                 id="city"
                 placeholder="Enter your city"
               />
-              <img
-                src="./IMG/location_city_FILL0_wght400_GRAD0_opsz48.png"
-                alt=""
-              />
             </div>
+
             <div class="country-code">
               <div class="country">
-                <label for="country">Country</label>
+                <label for="country">Country</label> <br />
                 <select name="country" id="country">
                   <option value="Turkey">Turkey</option>
                   <option value="USA">USA</option>
                   <option value="Spain">Spain</option>
                 </select>
-                <img src="./IMG/public_FILL0_wght400_GRAD0_opsz48.png" alt="" />
               </div>
               <div class="postal">
                 <label for="postal-code">Postal Code</label>
@@ -93,20 +90,12 @@
                   id="postal-code"
                   placeholder="Enter your postal code"
                 />
-                <img
-                  src="./IMG/local_post_office_FILL0_wght400_GRAD0_opsz48.png"
-                  alt=""
-                />
-              </div>
-              <div class="checkbox">
-                <input type="checkbox" name="see-next" id="see-next" />
-                <label for="see-next">See this information next time</label>
-                <br />
               </div>
             </div>
-
-            <div class="submit">
-              <input type="submit" value="Continue" />
+            <div class="checkbox">
+              <input type="checkbox" name="see-next" id="see-next" />
+              <label for="see-next">See this information next time</label>
+              <br />
             </div>
           </form>
         </div>
@@ -145,5 +134,10 @@
         </div>
       </div>
     </div>
+    <form action="#">
+      <div class="submit">
+        <input type="submit" value="Continue" />
+      </div>
+    </form>
   </body>
 </html>
