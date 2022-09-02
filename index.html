@@ -103,12 +103,11 @@
 
       <div class="products">
         <div class="bag">
-          <div class="bag-img">
-            <img src="./IMG/photo1.png" alt="" />
-          </div>
+          <img src="./IMG/photo1.png" alt="" />
+
           <div class="bag-costs">
             <h4>Vintage Backbag</h4>
-            <p>$54.99 <del><$94.99</del></p>
+            <p><span class="daily-price">$54.99</span> <del><$94.99</del></p>
             <form action="#">
               <input type="number" name="" id="vintage-bag-count" min="0" />
             </form>
@@ -116,19 +115,22 @@
         </div>
         <div class="shoes">
           <img src="./IMG/photo2.png" alt="" />
-          <h4>Levi Shoes</h4>
-          <p>$74.99 <del>$124.99</del></p>
-          <form action="#">
-            <input type="number" name="" id="shoes-count" min="0" />
-          </form>
+          <div class="shoe-costs">
+            <h4>Levi Shoes</h4>
+            <p><span class="daily-price">$74.99</span> <del>$124.99</del></p>
+            <form action="#">
+              <input type="number" name="" id="shoes-count" min="0" />
+            </form>
+          </div>
         </div>
+        <hr />
         <div class="shipping-cost">
-          <hr />
           <p>Shipping</p>
           <p>$19</p>
         </div>
+        <hr />
+
         <div class="total-cost">
-          <hr />
           <p>Total</p>
           <p>$148.98</p>
         </div>

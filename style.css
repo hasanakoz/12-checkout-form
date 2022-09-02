@@ -5,20 +5,23 @@
   /* border: 2px solid red; */
 }
 header {
-  text-align: center;
+  position: relative;
+  left: 30rem;
   margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  gap: 2rem;
-  margin: 2rem;
+  gap: 3rem;
+  margin: 1.6rem;
 }
 
 .form-info {
   width: 50%;
+  max-width: 40rem;
   margin-left: 1.5rem;
   /* border: 2px solid red; */
 }
@@ -29,10 +32,12 @@ header {
 
 .country-code {
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
+  flex-wrap: wrap;
 }
 .country {
   width: 30%;
+  margin-right: 1rem;
 }
 .postal {
   width: 60%;
@@ -45,7 +50,7 @@ header {
   margin: 0.5rem 0.5rem 0 0;
   opacity: 0.6;
   border-radius: 4px;
-  height: 2rem;
+  height: 2.5rem;
   padding-left: 2rem;
 }
 .form-info label {
@@ -54,6 +59,7 @@ header {
 
 h3 {
   padding-left: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .email input {
@@ -77,13 +83,13 @@ h3 {
 .country select {
   background-image: url("./IMG/public_FILL0_wght400_GRAD0_opsz48.png");
   background-position: left;
-  background-size: contain;
+  background-size: 1.5rem;
   background-repeat: no-repeat;
   padding-left: 2rem;
   margin: 0.5rem 0.5rem 0 0;
   opacity: 0.6;
   border-radius: 4px;
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .postal input {
@@ -99,35 +105,87 @@ h3 {
 }
 .checkbox label {
   /* border: 3px solid blue; */
-  width: 80%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  width: auto;
+  height: auto;
   font-size: 1rem;
   text-align: center;
 }
 .form-info .checkbox input {
-  width: 5%;
-  margin: 0;
-  padding: 0;
+  width: 4%;
 }
 
 .products {
   width: 40%;
+  padding: 1.5rem;
+  max-width: 30rem;
   background-color: rgba(251, 244, 240, 0.977);
   border: 0.5px solid rgba(251, 244, 240, 0.977);
   border-radius: 10px;
+  height: 50%;
 }
 
-.bag {
+.bag,
+.shoes {
   display: flex;
+  gap: 1rem;
   margin: 1rem;
+  align-items: center;
+  justify-content: left;
+  padding-right: 2rem;
 }
 
-.bag-img img {
-  width: 100%;
+.bag img {
+  width: 50%;
+  border-radius: 0.6rem;
 }
 
-.bag-costs {
+/* .bag-costs {
   margin-left: 1rem;
+} */
+.daily-price {
+  color: orange;
+}
+
+del {
+  font-size: 0.8rem;
+}
+.products input {
+  width: 70%;
+  height: 1.8rem;
+}
+.shoes {
+  display: flex;
+}
+
+.shoes img {
+  width: 50%;
+  border-radius: 0.6rem;
+}
+
+.shipping-cost,
+.total-cost {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.submit {
+  position: absolute;
+  left: 28rem;
+}
+
+.submit input {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  transition: transform 0.5s;
+}
+
+.submit input:hover {
+  transform: scale(0.9);
+  background-color: antiquewhite;
+  color: orange;
 }
