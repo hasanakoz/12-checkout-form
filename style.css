@@ -6,7 +6,7 @@
 }
 header {
   position: relative;
-  left: 30rem;
+  left: 30%;
   margin-top: 1rem;
   font-size: 2rem;
 }
@@ -15,14 +15,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  gap: 3rem;
+  /* gap: 1%; */
   margin: 1.6rem;
 }
 
 .form-info {
-  width: 50%;
+  width: 40%;
   max-width: 40rem;
-  margin-left: 1.5rem;
+  min-width: 20rem;
+  margin-left: 2%;
   /* border: 2px solid red; */
 }
 
@@ -115,13 +116,15 @@ h3 {
 }
 
 .products {
-  width: 40%;
-  padding: 1.5rem;
+  width: 30%;
+  padding: 1%;
   max-width: 30rem;
+  min-width: 20rem;
   background-color: rgba(251, 244, 240, 0.977);
   border: 0.5px solid rgba(251, 244, 240, 0.977);
   border-radius: 10px;
   height: 50%;
+  margin-left: 1%;
 }
 
 .bag,
